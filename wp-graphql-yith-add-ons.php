@@ -13,9 +13,7 @@
 
 namespace ConsumeDesign\YithAddOns;
 
-use function YoastSEO_Vendor\GuzzleHttp\json_encode;
-
-//namespace Cactus\GQLTC;
+//namespace ConsumeDesign;
 
 if (!defined('ABSPATH')) {
 	exit;
