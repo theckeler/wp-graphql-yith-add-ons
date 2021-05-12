@@ -123,8 +123,8 @@ function register_yith_types()
 			} else {
 				$fields = null;
 			}
-			graphql_debug($product_id, ['type' => 'product_id']);
-			graphql_debug($wpdb->prefix, ['type' => 'prefix']);
+			//graphql_debug($product_id, ['type' => 'product_id']);
+			//graphql_debug($wpdb->prefix, ['type' => 'prefix']);
 			return $fields;
 		}
 	]);
